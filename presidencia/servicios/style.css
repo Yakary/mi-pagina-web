@@ -1,0 +1,27 @@
+
+body {
+    padding-top: 56px;
+}
+.jumbotron {
+    background-size: cover;
+    color: rgb(16, 14, 14);
+    text-shadow: 2px 2px 4px #000000;
+}
+.navbar-custom {
+    background-color: #5c15c8;
+}
+.footer {
+    background-color: #4e72d6;
+    color: rgb(12, 12, 12);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmos</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Observatorio de Tepezala</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Inicio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br> <hr> <hr>
+
+   <center><h1>CosmoCafe</h1> </center> 
+   <hr>
+   <h4>Restaurante </h4><hr>
+    <p>Desde CosmoCafe  se pueden apreciar hermosas vistas panorámicas.✨🌌🩶🤩 </p>
+
+    <section class="gallery my-5">
+        <h2 class="text-center"></h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-10 mb-10">
+                    <img src="img/cos1.jpg" class="img-fluid rounded shadow" alt="cosmo" width="200px">
+                </div>
+                <div class="col-6 col-md-4 mb-3">
+                    <img src="img/cos2.jpg" class="img-fluid rounded shadow" alt="cosmo">
+                </div>
+                <div class="col-6 col-md-4 mb-3">
+                    <img src="img/cos3.jpg" class="img-fluid rounded shadow" alt="cosmo">
+                </div>
+                <div class="col-6 col-md-4 mb-3">
+                    <img src="img/cos4.jpg" class="img-fluid rounded shadow" alt="cosmo">
+                </div>
+                <div class="col-6 col-md-4 mb-3">
+                    <img src="img/cos5.jpg" class="img-fluid rounded shadow" alt="cosmo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
+<section id="mensaje" class="container mt-5 mb-5">
+    <h2>Experiencia</h2>
+    <h6>Por cualquier duda, ponte en contacto!!!! </h6>
+    <form id="contactForm" action="/enviar-mensaje" method="POST">
+        <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea class="form-control" id="message" name="message" rows="3" placeholder="Tu mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+    </form>
+</section>
